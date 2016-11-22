@@ -1,3 +1,4 @@
 Makefile
 .qmake.stash
 operation.app
+qrc_operation.cpp
