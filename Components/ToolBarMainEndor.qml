@@ -96,6 +96,20 @@ ToolBar {
                 antialiasing: true
                 source: settingsbutton.pressed ? "qrc:/images/32/battery_32x_black.png": "qrc:/images/32/battery_32x_blue.png"
             }
+            onClicked: optionsMenu.open()
+
+            Menu {
+                id: optionsMenu
+                x: parent.width - width
+
+                transformOrigin: Menu.TopRight
+                    MenuItem {
+                        text: "Settings"
+                    }
+                    MenuItem {
+                        text: "About"
+                    }
+            }
         }
     }
 }
