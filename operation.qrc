@@ -3,6 +3,8 @@
         <file>main.qml</file>
         <file>qtquickcontrols2.conf</file>
         <file>Components/ToolBarMainEndor.qml</file>
+        <file>Components/ToolBarDefault.qml</file>
+       <file>Components/StatusBarMainEndor.qml</file>
         
         <file>images/32/battery_32x_blue.png</file>
         <file>images/32/battery_32x_black.png</file>
@@ -17,19 +19,35 @@
         <file>images/32/compass_32x_blue.png</file>
         <file>images/32/compass_32x_black.png</file>
         
-        <file>images/icon_settings.png</file>
-        <file>images/icon_settings-line.png</file>       
-        <file>images/drawer.png</file>
-        <file>images/drawer@2x.png</file>
-        <file>images/drawer@3x.png</file>
-        <file>images/drawer@4x.png</file>
-        <file>images/menu.png</file>
-        <file>images/menu@2x.png</file>
-        <file>images/menu@3x.png</file>
-        <file>images/menu@4x.png</file>    
-        <file>images/videocam.png</file>  
-        <file>images/file.png</file> 
-        <file>images/settings-drawio.png</file> 
-        <file>images/checked.png</file> 
+        <file>images/toolbar_default_32x/arrows_32x_black.png</file>
+        <file>images/toolbar_default_32x/arrows_32x_blue.png</file>
+        <file>images/toolbar_default_32x/check-box_32x_black.png</file>
+        <file>images/toolbar_default_32x/check-box_32x_blue.png</file>
+        <file>images/toolbar_default_32x/check-square_32x_black.png</file>
+        <file>images/toolbar_default_32x/check-square_32x_blue.png</file>
+        <file>images/toolbar_default_32x/checkbox-pen-outline_32x_black.png</file>
+        <file>images/toolbar_default_32x/checkbox-pen-outline_32x_blue.png</file>
+        <file>images/toolbar_default_32x/cogwheel_32x_black.png</file>
+        <file>images/toolbar_default_32x/cogwheel_32x_blue.png</file>
+        <file>images/toolbar_default_32x/folder-1_32x_black.png</file>
+        <file>images/toolbar_default_32x/folder-1_32x_blue.png</file>
+        <file>images/toolbar_default_32x/folder_32x_black.png</file>
+        <file>images/toolbar_default_32x/folder_32x_blue.png</file>
+        <file>images/toolbar_default_32x/interface-1_32x_black.png</file>
+        <file>images/toolbar_default_32x/interface-1_32x_blue.png</file>
+        <file>images/toolbar_default_32x/interface_32x_black.png</file>
+        <file>images/toolbar_default_32x/interface_32x_blue.png</file>
+        <file>images/toolbar_default_32x/list_32x_black.png</file>
+        <file>images/toolbar_default_32x/list_32x_blue.png</file>
+        <file>images/toolbar_default_32x/play-button_32x_black.png</file>
+        <file>images/toolbar_default_32x/play-button_32x_blue.png</file>
+        <file>images/toolbar_default_32x/stop_32x_black.png</file>
+        <file>images/toolbar_default_32x/stop_32x_blue.png</file>
+        <file>images/toolbar_default_32x/tools-1_32x_black.png</file>
+        <file>images/toolbar_default_32x/tools-1_32x_blue.png</file>
+        <file>images/toolbar_default_32x/tools_32x_black.png</file>
+        <file>images/toolbar_default_32x/tools_32x_blue.png</file>
+
+
     </qresource>
 </RCC>

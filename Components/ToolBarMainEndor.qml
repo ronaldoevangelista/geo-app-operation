@@ -8,7 +8,6 @@ import QtGraphicalEffects 1.0
 
 ToolBar {
 
-
     background: Rectangle {
         color: "transparent"
         Rectangle {
@@ -35,7 +34,15 @@ ToolBar {
                 verticalAlignment: Image.AlignVCenter
                 antialiasing: true
                 source: compassbutton.pressed ? "qrc:/images/32/compass_32x_black.png": "qrc:/images/32/compass_32x_blue.png"
-            }
+                Layout.alignment: Qt.AlignRight
+                sourceSize: Qt.size(32, 32) 
+                }
+                background: Rectangle {
+                    implicitWidth: 60
+                    implicitHeight:40
+                    color: compassbutton.down ? "transparent" : "transparent"
+                    radius: 4
+                }
         }
 
         ToolButton {
@@ -46,8 +53,16 @@ ToolBar {
                 horizontalAlignment: Image.AlignHCenter
                 verticalAlignment: Image.AlignVCenter
                 antialiasing: true
-                source: lidarbutton.pressed ? "qrc:/images/32/flashlight_32x_black.png": "qrc:/images/32/flashlight_32x_blue.png"
-            }
+                source: flashlightbutton.pressed ? "qrc:/images/32/flashlight_32x_black.png": "qrc:/images/32/flashlight_32x_blue.png"
+                Layout.alignment: Qt.AlignRight
+                sourceSize: Qt.size(32, 32) 
+                }
+                background: Rectangle {
+                    implicitWidth: 60
+                    implicitHeight:40
+                    color: flashlightbutton.down ? "transparent" : "transparent"
+                    radius: 4
+                }
         }
 
         ToolButton {
@@ -59,7 +74,15 @@ ToolBar {
                 verticalAlignment: Image.AlignVCenter
                 antialiasing: true
                 source: lidarbutton.pressed ? "qrc:/images/32/wifi_32x_black.png": "qrc:/images/32/wifi_32x_blue.png"
-            }
+                Layout.alignment: Qt.AlignRight
+                sourceSize: Qt.size(32, 32) 
+                }
+                background: Rectangle {
+                    implicitWidth: 60
+                    implicitHeight:40
+                    color: lidarbutton.down ? "transparent" : "transparent"
+                    radius: 4
+                }
         }
 
         ToolButton {
@@ -71,7 +94,15 @@ ToolBar {
                 verticalAlignment: Image.AlignVCenter
                 antialiasing: true
                 source: placholderbutton.pressed ? "qrc:/images/32/placeholder_32x_black.png": "qrc:/images/32/placeholder_32x_blue.png"
-            }
+                Layout.alignment: Qt.AlignRight
+                sourceSize: Qt.size(32, 32) 
+                }
+                background: Rectangle {
+                    implicitWidth: 60
+                    implicitHeight:40
+                    color: placholderbutton.down ? "transparent" : "transparent"
+                    radius: 4
+                }
         }
 
         ToolButton {
@@ -83,7 +114,15 @@ ToolBar {
                 verticalAlignment: Image.AlignVCenter
                 antialiasing: true
                 source: camerabutton.pressed ? "qrc:/images/32/video_camera_32x_black.png": "qrc:/images/32/video_camera_32x_blue.png"
-            }
+                Layout.alignment: Qt.AlignRight
+                sourceSize: Qt.size(32, 32) 
+                }
+                background: Rectangle {
+                    implicitWidth: 60
+                    implicitHeight:40
+                    color: camerabutton.down ? "transparent" : "transparent"
+                    radius: 4
+                }
         }
 
         ToolButton {
@@ -95,6 +134,14 @@ ToolBar {
                 verticalAlignment: Image.AlignVCenter
                 antialiasing: true
                 source: settingsbutton.pressed ? "qrc:/images/32/battery_32x_black.png": "qrc:/images/32/battery_32x_blue.png"
+                Layout.alignment: Qt.AlignRight
+                sourceSize: Qt.size(32, 32) 
+            }
+            background: Rectangle {
+                    implicitWidth: 60
+                    implicitHeight:40
+                    color: settingsbutton.down ? "transparent" : "transparent"
+                    radius: 4
             }
             onClicked: optionsMenu.open()
 

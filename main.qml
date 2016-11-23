@@ -23,9 +23,11 @@ ApplicationWindow {
     visible: true
     title: "Endor Operation"
 
-    header:  CustomItems.ToolBarMainEndor {
-            Material.foreground: "white"
-            }
+    header: CustomItems.ToolBarDefault {
+        Material.foreground: "white"
+    }
+    
+    footer: CustomItems.StatusBarMainEndor {}
 
     StackView {
         id: stackView
@@ -33,8 +35,6 @@ ApplicationWindow {
 
         initialItem: Pane {
             id: pane
-
         }
     }
-
 }
