@@ -2,6 +2,23 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>qtquickcontrols2.conf</file>
+        <file>Components/ToolBarMainEndor.qml</file>
+        
+        <file>images/32/battery_32x_blue.png</file>
+        <file>images/32/battery_32x_black.png</file>
+        <file>images/32/video_camera_32x_blue.png</file>
+        <file>images/32/video_camera_32x_black.png</file>
+        <file>images/32/placeholder_32x_blue.png</file>
+        <file>images/32/placeholder_32x_black.png</file>
+        <file>images/32/wifi_32x_blue.png</file>
+        <file>images/32/wifi_32x_black.png</file>
+        <file>images/32/flashlight_32x_blue.png</file>
+        <file>images/32/flashlight_32x_black.png</file>
+        <file>images/32/compass_32x_blue.png</file>
+        <file>images/32/compass_32x_black.png</file>
+        
+        <file>images/icon_settings.png</file>
+        <file>images/icon_settings-line.png</file>       
         <file>images/drawer.png</file>
         <file>images/drawer@2x.png</file>
         <file>images/drawer@3x.png</file>
