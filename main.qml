@@ -21,8 +21,7 @@ ApplicationWindow {
 
     header: ToolBar {
 
-        Material.foreground: "white"
-        
+        Material.foreground: "transparent"
         RowLayout {
             spacing: 2
             anchors.fill: parent   
@@ -44,15 +43,36 @@ ApplicationWindow {
                     anchors.margins: 2
                     horizontalAlignment: Image.AlignHCenter
                     verticalAlignment: Image.AlignVCenter
-                    source: "qrc:/images/file.svg"
+                    source: "qrc:/images/file.png"
+                    sourceSize: Qt.size(32, 32) 
                 }
                 background: Rectangle {
-                    implicitWidth: 50
-                    implicitHeight:50
+                    implicitWidth: 60
+                    implicitHeight:40
                     color: buttonfile.down ? "#d6d6d6" : "transparent"
                     radius: 4
                 }
             } 
+
+
+            ToolButton {
+                    id: buttonchecked
+                    contentItem: Image {
+                    fillMode: Image.Pad
+                    anchors.margins: 2
+                    horizontalAlignment: Image.AlignHCenter
+                    verticalAlignment: Image.AlignVCenter
+                    source: "qrc:/images/checked.png"
+                    sourceSize: Qt.size(32, 32) 
+                }
+                background: Rectangle {
+                    implicitWidth: 60
+                    implicitHeight:40
+                    color: buttonchecked.down ? "#d6d6d6" : "transparent"
+                    radius: 4
+                }
+            } 
+
             ToolButton {
                 id: buttonsett
                 contentItem: Image {
@@ -60,22 +80,17 @@ ApplicationWindow {
                     fillMode: Image.Pad
                     horizontalAlignment: Image.AlignHCenter
                     verticalAlignment: Image.AlignVCenter
-                    source: "qrc:/images/videocam.png"
+                    source: "qrc:/images/settings-drawio.png"
                     Layout.alignment: Qt.AlignRight
+                    sourceSize: Qt.size(32, 32) 
                 }
                 background: Rectangle {
-                    implicitWidth: 50
-                    implicitHeight: 50
+                    implicitWidth: 60
+                    implicitHeight:40
                     color: buttonsett.down ? "#d6d6d6" : "transparent"
                     radius: 4
                 }
                 onClicked: optionsMenu.open()
-
-                ColorOverlay {
-                        anchors.fill: videocam
-                        source: videocam
-                        color: "#0000FF"
-                    }
                     
                 Menu {
                     id: optionsMenu

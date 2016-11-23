@@ -11,6 +11,8 @@
         <file>images/menu@3x.png</file>
         <file>images/menu@4x.png</file>    
         <file>images/videocam.png</file>  
-        <file>images/file.svg</file> 
+        <file>images/file.png</file> 
+        <file>images/settings-drawio.png</file> 
+        <file>images/checked.png</file> 
     </qresource>
 </RCC>
