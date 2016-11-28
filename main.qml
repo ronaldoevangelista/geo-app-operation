@@ -24,17 +24,23 @@ ApplicationWindow {
     title: "Endor Operation"
 
     header: CustomItems.ToolBarDefault {
-        Material.foreground: "white"
+        Material.foreground: "black"
+        width: window.width - 25
     }
-    
+
     footer: CustomItems.StatusBarMainEndor {}
 
     StackView {
         id: stackView
         anchors.fill: parent
-
         initialItem: Pane {
             id: pane
+            CameraUI{
+                CustomItems.ToolBarMainEndor{
+                    width: window.width - 25
+
+                }
+             }
         }
     }
 }

@@ -5,7 +5,8 @@
 TEMPLATE = app
 TARGET = operation
 
-QT += quick quickcontrols2 widgets
+QT += quick quickcontrols2 widgets \
+qml multimedia
 
 INCLUDEPATH += .
 
