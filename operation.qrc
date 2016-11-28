@@ -7,6 +7,12 @@
        <file>Components/StatusBarMainEndor.qml</file>
 
         <file>CameraUI.qml</file>
+        <file>Components/ObjectButton.qml</file>
+        <file>Components/ObjectMessageDialog.qml</file>
+
+        <file>Components/ObjectPropertyPopup.qml</file>
+        <file>Components/ObjectPropertyButton.qml</file>
+        <file>Components/Popup.qml</file>
 
         <file>PhotoPreview.qml</file>
         <file>ZoomControl.qml</file>
@@ -33,6 +39,8 @@
         <file>images/camera_white_balance_sunny.png</file>
         <file>images/toolbutton.png</file>
         <file>images/toolbutton.sci</file>
+
+        <file>images/custombutton.sci</file>
 
         <file>images/32/battery_32x_blue.png</file>
         <file>images/32/battery_32x_black.png</file>

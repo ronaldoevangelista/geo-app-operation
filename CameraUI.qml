@@ -15,7 +15,6 @@ Rectangle {
     color: "black"
     state: "PhotoCapture"
 
-
     states: [
         State {
             name: "PhotoCapture"

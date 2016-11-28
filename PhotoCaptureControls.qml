@@ -135,16 +135,17 @@ FocusScope {
                 onValueChanged: captureControls.camera.deviceId = value
             }
 
+/*
             CameraButton {
                 text: "Switch to Video"
                 onClicked: captureControls.videoModeSelected()
             }
-
             CameraButton {
                 id: quitButton
                 text: "Quit"
                 onClicked: Qt.quit()
             }
+            */
         }
 
 
